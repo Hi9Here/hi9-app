@@ -4,10 +4,10 @@ BUILD_VERSION=unbundled
 environment=$1
 
 case $environment in
-  dev) project_id=pwa-demo ;;
-  stage) project_id=pwa-demo ;;
-  prod) project_id=pwa-demo ;;
-  *) project_id=pwa-demo ;;
+  dev) project_id=hi9-app ;;
+  stage) project_id=hi9-app ;;
+  prod) project_id=hi9-app ;;
+  *) project_id=hi9-app ;;
 esac
 
 rm -rf build

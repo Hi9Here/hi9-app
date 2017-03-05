@@ -1,13 +1,4 @@
-<!--
-@license
-Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
--->
-
+<!DOCTYPE html>
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/polymerfire/firebase-app.html">
 <link rel="import" href="../../bower_components/polymerfire/firebase-auth.html">
@@ -17,13 +8,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   <template>
 
-    <firebase-app name="pwa-demo"
-                  api-key="AIzaSyCurciqfPjS6PVNpfMzr_wVaShurko-wDI"
-                  auth-domain="pwa-demo-97d98.firebaseapp.com"
-                  database-url="https://pwa-demo-97d98.firebaseio.com"></firebase-app>
+    <firebase-app name="hi9-app"
+                  api-key="AIzaSyBpgv09NArMrXPyTzzygbesAgYsb8z2Nq8"
+                  auth-domain="hi9-app.firebaseapp.com"
+                  database-url="https://hi9-app.firebaseio.com"></firebase-app>
 
     <firebase-auth id="auth"
-                   app-name="pwa-demo"
+                   app-name="hi9-app"
                    signed-in="{{_signedIn}}"
                    user="{{_user}}"
                    on-error="_onAuthError"></firebase-auth>

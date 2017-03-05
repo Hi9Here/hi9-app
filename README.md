@@ -1,8 +1,8 @@
-# Progressive Web App Template
+# Hi9-app
 
 [![Lighthouse 100](https://img.shields.io/badge/Lighthouse-100-green.svg)](https://github.com/GoogleChrome/lighthouse)
-[![PageSpeed 97](https://img.shields.io/badge/PageSpeed-97-green.svg)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fpwa-demo.appspot.com&tab=desktop)
-[![Resizer Responsive UI](https://img.shields.io/badge/Resizer-Responsive%20UI-green.svg)](http://design.google.com/resizer/#url=https%3A%2F%2Fpwa-demo.appspot.com)
+[![PageSpeed 97](https://img.shields.io/badge/PageSpeed-97-green.svg)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhi9-app.appspot.com&tab=desktop)
+[![Resizer Responsive UI](https://img.shields.io/badge/Resizer-Responsive%20UI-green.svg)](http://design.google.com/resizer/#url=https%3A%2F%2Fhi9-app.appspot.com)
 [![BrowserStack](https://img.shields.io/badge/BrowserStack-App%20tested-green.svg)](https://www.browserstack.com)
 [![bitHound Score](https://www.bithound.io/github/StartPolymer/progressive-web-app-template/badges/score.svg)](https://www.bithound.io/github/StartPolymer/progressive-web-app-template)
 [![G+ StartPolymer](https://img.shields.io/badge/G+-StartPolymer-dd4b39.svg)](https://plus.google.com/101148544618948882647)
@@ -37,14 +37,14 @@ Progressive Web Apps are:
 
 ## Demo
 
-See latest build from master branch at https://pwa-demo.appspot.com
+See latest build from master branch at https://hi9-app.appspot.com
 
 #### Check out this pages
 
-- [/sign-in](https://pwa-demo.appspot.com/sign-in) - use `sign@up.pwa` or `sign@in.pwa`
-- [/sign-in/sign-in-with-email](https://pwa-demo.appspot.com/sign-in/sign-in-with-email)
-- [/sign-up](https://pwa-demo.appspot.com/sign-up)
-- [/404](https://pwa-demo.appspot.com/404)
+- [/sign-in](https://hi9-app.appspot.com/sign-in) - use `sign@up.pwa` or `sign@in.pwa`
+- [/sign-in/sign-in-with-email](https://hi9-app.appspot.com/sign-in/sign-in-with-email)
+- [/sign-up](https://hi9-app.appspot.com/sign-up)
+- [/404](https://hi9-app.appspot.com/404)
 
 ## Features
 
