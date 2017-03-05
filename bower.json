@@ -1,7 +1,7 @@
 {
-  "name": "progressive-web-app-template",
+  "name": "hi9-app-template",
   "authors": [
-    "The Polymer Authors"
+    "The Hi9 Authors"
   ],
   "private": true,
   "dependencies": {
