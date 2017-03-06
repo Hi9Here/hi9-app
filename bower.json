@@ -32,7 +32,8 @@
     "paper-tooltip": "PolymerElements/paper-tooltip#1.1.x",
     "polymer": "Polymer/polymer#1.6.0",
     "polymerfire": "firebase/polymerfire#0.9.4",
-    "promise-polyfill": "StartPolymer/empty-elements#1.1.x"
+    "promise-polyfill": "StartPolymer/empty-elements#1.1.x",
+    "iron-image": "PolymerElements/iron-image#^1.2.5"
   },
   "devDependencies": {
     "web-component-tester": "4.2.x"
