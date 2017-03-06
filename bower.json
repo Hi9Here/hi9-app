@@ -33,7 +33,8 @@
     "polymer": "Polymer/polymer#1.6.0",
     "polymerfire": "firebase/polymerfire#0.9.4",
     "promise-polyfill": "StartPolymer/empty-elements#1.1.x",
-    "iron-image": "PolymerElements/iron-image#^1.2.5"
+    "iron-image": "PolymerElements/iron-image#^1.2.5",
+    "google-signin": "GoogleWebComponents/google-signin#^1.3.7"
   },
   "devDependencies": {
     "web-component-tester": "4.2.x"
