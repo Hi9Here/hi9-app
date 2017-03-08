@@ -14,7 +14,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../../../bower_components/paper-input/paper-input.html">
 <link rel="import" href="../../../bower_components/paper-input/paper-textarea.html">
 <link rel="import" href="../../../bower_components/paper-material/paper-material.html">
-<link rel="import" href="../../../bower_components/signup-page/signup-page.html">
 <link rel="import" href="../../app-behaviors/app-localize-behavior.html">
 <link rel="import" href="../../app-themes/current-theme/shared-styles/pages-shared-styles.html">
 <link rel="import" href="app-icons-contact-us.html">
@@ -56,7 +55,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
 
     <div class="Page-container Page-container--center Page-container--fullHeight">
-      <signup-page></signup-page>
+      <paper-material class="Page-card Page-card--expand" elevation="3">
+
+        <h1 class="Page-title" hidden$="{{!app.isTabletWide}}">{{localize('contact-us')}}</h1>
+
+        <form class="Form" id="form" is="iron-form" method="get" action="/" on-iron-form-submit="_onFormSubmit">
+          <paper-input class="Input" id="emailInput"
+                       name="username" type="text" autocomplete="username"
+                       autofocus auto-validate required
+                       value="{{app.userAuthEmail}}"
+                       pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+                       label="{{localize('your-email')}}"
+                       error-message="{{localize('invalid-email-address')}}"
+                       on-keydown="_onEmailInputKeyDown"></paper-input>
+          <paper-textarea class="Input" id="messageInput"
+                          required
+                          label="{{localize('message')}}"
+                          on-keydown="_onMessageInputKeyDown"></paper-textarea>
+          <div class="Button-touchTarget" on-tap="_onSendButtonTap">
+            <paper-button class="Button Button--shadowText" raised>{{localize('send')}}</paper-button>
+          </div>
+        </form>
+
+      </paper-material>
     </div>
 
   </template>
